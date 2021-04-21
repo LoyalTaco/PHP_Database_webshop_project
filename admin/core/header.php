@@ -1,5 +1,5 @@
 <?php
-    include($_SERVER['DOCUMENT_ROOT'].'/School/webshop-live-les-1wdv2/core/db_connect.php');
+    include($_SERVER['DOCUMENT_ROOT'].'/School/PHP_Database_webshop_project/core/db_connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

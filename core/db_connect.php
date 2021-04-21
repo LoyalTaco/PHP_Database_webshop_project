@@ -25,8 +25,8 @@ if ($con -> connect_errno) {
     exit();
 }
 
-define("BASEURL","http://localhost/school/webshop-live-les-1wdv2/");
-define("BASEURL_CMS","http://localhost/school/webshop-live-les-1wdv2/admin/");
+define("BASEURL","http://localhost/school/PHP_Database_webshop_project/");
+define("BASEURL_CMS","http://localhost/school/PHP_Database_webshop_project/admin/");
 
 function prettyDump ( $var ) {
     echo "<pre>";
