@@ -5,18 +5,18 @@ session_start();
 /**
  * Voor de MAC gebruikers;
  */
-// $dbhost = "localhost";
-// $dbuser = "root";
-// $dbpass = "root";
-// $dbname = "webshop";
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "root";
+$dbname = "webshop";
 
 /**
  * Voor de Windows gebruikers;
  */
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "webshop";
+//$dbhost = "localhost";
+//$dbuser = "root";
+//$dbpass = "";
+//$dbname = "webshop";
 
 $con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -25,8 +25,8 @@ if ($con -> connect_errno) {
     exit();
 }
 
-define("BASEURL","http://localhost/school/PHP_Database_webshop_project/");
-define("BASEURL_CMS","http://localhost/school/PHP_Database_webshop_project/admin/");
+define("BASEURL","http://localhost:8888/school/PHP_Database_webshop_project/");
+define("BASEURL_CMS","http://localhost:8888/school/PHP_Database_webshop_project/admin/");
 
 function prettyDump ( $var ) {
     echo "<pre>";
