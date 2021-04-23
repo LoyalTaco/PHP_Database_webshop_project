@@ -51,8 +51,8 @@
     }
 ?>
 <form action="index.php" method="post">
-    <input type="email" name="email" id="" placeholder="Email">
-    <input type="password" name="password" id="" placeholder="Password">
+    <input type="email" name="email" id="" class="input-form" placeholder="Email">
+    <input type="password" name="password" id="" class="input-form" placeholder="Password">
     <input type="submit" name="submit" value="Login">
     <a href="forgot_password.php">Forgot Password?</a>
 </form>
